@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'taskbox';
+
+  task = {
+    id: '1',
+    title: 'Test Task',
+    state: 'TASK_INBOX',
+  }
 }
